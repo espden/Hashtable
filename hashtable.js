@@ -48,7 +48,7 @@ export default class HashTable {
         this.count--;
 
         // Shrink array when nearly empty
-        if (this.count <= this.array.length / 4 && this.count > 4)
+        if (this.count <= this.array.length / 4 && this.array.length > 4)
             this._shrink();
 
         return true;
