@@ -1,4 +1,4 @@
-import HashTable from "./hashtable.js";
+import HashTable from "./hashtable-chaining.js";
 
 let hash = new HashTable();
 

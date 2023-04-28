@@ -1,4 +1,4 @@
-export default class HashTable {
+export default class HashTableChaining {
     constructor() {
         this.array = new Array(4);
         this.count = 0;
